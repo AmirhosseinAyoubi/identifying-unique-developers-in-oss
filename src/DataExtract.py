@@ -10,7 +10,7 @@ class DataExtract(DataClean):
         super().__init__()
         self.__repo_base_path = "../res/"
         self.__dup_datafile = "../data/dup_data.csv"
-        self.__datafile = "../data/dup_data.csv"
+        self.__datafile = "../data/data.csv"
         self.__repo_url = repo_url
         self.__repo_name = repo_name
 
